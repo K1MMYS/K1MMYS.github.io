@@ -1,0 +1,239 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/ca245ee21a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/logo.png" class="logo">
+				<ul id="sidemenu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+					</ul>
+					<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<h1>Hi, I'm <span>Kimgie</span><br>from Philippines</h1>
+			</div>
+		</div>
+	</div>
+	<!----------------about--------------- -->
+	<div id="about"><br>
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/user1.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="subtitle">About Me</h1><br><br>
+					<p>Hello, my name is Kimgie C. Lauron I'm 27 years of age and a graduate of Bachelor of Science in Information Technology in Consolacion Community College. I'm a starter in this career and I know <br>that my knowledge and skills will help your company to be better in the near future. Thanks you and God bless you always.</p>
+				<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+						<div class="tab-contents active-tab" id="skills">
+							<ul>
+								<li><span>Adobe Photoshop</span><br>Editing Tool<br></li>
+								<li><span>Canva</span><br>Online Graphic Design Tool</li>
+								<li><span>Microsoft Office</span><br>Create/Edit Documents<br></li>
+								<li><span>Web Designing</span><br>Designing Web interfaces</li>
+								<li><span>Troubleshooting and technical support</span><br>Troubleshooting and technical support</li>
+								<li><span>Hardware/Software installations and maintenance</span><br>Maintaining hardware and updating computers, modems or routers.</li>
+							</ul>
+					</div>
+						<div class="tab-contents" id="education">
+							<ul>		
+								<li><span>Primary 2007-2008</span><br>Calero Integrated School</li>
+								<li><span>Secondary 2011-2012</span><br>Tayud Nation High School</li>
+								<li><span>Tertiary 2017-2021</span><br>Consolacion Community College</li>
+							</ul>
+
+					</div>
+						<div class="tab-contents" id="experience">
+							<ul>
+								<li><span>Sales Clerk</span><br>Gaisano Main. Colon Street Cebu City</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---------------services---------- -->
+	<div id="services">
+			<div class="container">
+			<h1 class="sub-title">My Service</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>Web Designing</h2>
+					<p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+					<a href="#">Learn more</a>
+				</div>				
+				<div>
+					<i class="fa-solid fa-screwdriver-wrench"></i>
+					<h2>Hardware/Software installations and maintenance</h2>
+					<p>A corporate IT department is often responsible for installing the computers, hard drives, printers, modems and routers that the company needs to operate. IT teams also evaluate a business's processes to determine the types of hardware that support its needs.</p>
+					<a href="#">Learn more</a>
+				</div>
+					<div>
+					<i class="fa-solid fa-database"></i>
+					<h2>Data Entry</h2>
+					<p>Data entry professionals use computers and data processing tools to enter data into a database or documentation platform. It’s possible that a data entry job’s duties will include transcription of audio or phone recordings.</p>
+					<a href="#">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- -------------------portfolio------------ -->
+
+<div id="Portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="images/work7.jpg">
+					<div class="layer">
+						<h2>Web Design</h2><br>
+						<h3>Sample #1</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-2.jpg">
+					<div class="layer">
+						<h2>Web Design</h2><br>
+						<h3>Sample #2</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+			</div>
+				<div class="work">
+					<img src="images/work-3.jpg">
+					<div class="layer">
+						<h2>Web Design</h2><br>
+						<h3>Sample #3</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+			</div>
+				<div class="work">
+					<img src="images/work-4.jpg">
+					<div class="layer">
+						<h2>Canva: Graphic Design Tool</h2><br>
+						<h3>Flyers Design #1</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+			</div>
+				<div class="work">
+					<img src="images/work-5.jpg">
+					<div class="layer">
+						<h2>Canva: Graphic Design Tool</h2><br>
+						<h3>Flyers Design #2</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+			</div>
+				<div class="work">
+					<img src="images/work-6.jpg">
+					<div class="layer">
+						<h2>Canva: Graphic Design Tool</h2><br>
+						<h3>Flyers Design #3</h3><br>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<a href="#" class="btn">See more</a>
+	</div>	
+</div>
+<!-- -------------contact---------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-sharp fa-solid fa-paper-plane"></i>email.forwork@gmail.com</p>
+				<p><i class="fa-solid fa-square-phone"></i>09512373156</p><br><br>
+				<div class="social-icons">
+						<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+						<a href="https://mail.google.com/mail/u/0/?dispatcher_command=master_lookup#inbox?compose=new"><i class="fa-solid fa-envelope"></i></i></a>
+			</div>
+			<a href="images/KIMGIE LAURON RESUME.pdf" download class="btn btn2">Download CV</a>
+		</div>
+			<div class="contact-right"></div>
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>			
+		</div>
+		<span id="msg"></span>
+	</div>
+</div>
+	<div class="copyright">
+		 <p>Copyright © Kimgie <i class="fa-solid fa-heart"></i></p>
+		</div>
+
+	<script>
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+
+	</script>
+	
+	<script>
+		
+		var sidemenu = document.getElementsById("sidemenu");
+
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemeu(){
+			sidemenu.style.right = "-200px";
+		}
+	</script>
+
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzbpcPkveYMF4nWZf9ZlWdIuY-ATsjjZ2kwbQf9kyUtVmL8dNkHEt1k11SrCZl-hdwn/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully!"
+
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+  	})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
